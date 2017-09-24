@@ -1,0 +1,222 @@
+body { 
+font-family: 'Fira Sans', sans-serif;
+
+}
+.about { 
+background: rgba(0,0,0,.4);
+}
+
+.wrapper{ 
+    background: url(../img/skblue.jpg) 0px 17px;
+
+}
+
+
+#abtsec, .portf h2, .portcon, .footer, .tcontent, .about p, .contact { 
+text-align: center;
+
+}
+
+
+.nav.navbar-nav li a, .navbar-brand  {
+	
+	font-size: 130% !important;
+    color: white !important; 
+}
+
+.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+    background-color: black;
+	color: white;
+	border: 1px solid blue;
+   
+}
+
+.navbar-inverse .navbar-nav>.active>a, .navbar-inverse .navbar-nav>.active>a:focus {
+    color: #fff;
+    background-color: #1D3775;
+	background-color: #0F0872;
+}
+
+.nav li:hover, .navbar-inverse .navbar-nav>.active>a:hover {
+    background-color: black;
+    color: white;
+    border: 1px solid blue;
+	
+}
+
+.wrapper { 
+
+width: 100%;
+height: 100%;
+background-color:#13148A;
+}
+
+.contentc { 
+width:100%;
+color:white;
+font-size: 130%;
+line-height: 200%;
+
+}
+
+
+
+/* fix spaces between divs/h2s */
+.portcon h2{ 
+margin-top: 0px;
+
+}
+
+.contact h2 {
+margin-top: -10px;
+padding-top: 16px;
+}
+
+.footer h3 {
+    margin-top: 0;
+    padding-top: 16px;
+}
+
+.about h2 {
+    margin-top: 69px;
+}
+
+
+
+.portf p { 
+background-color: black;
+padding: 10px;
+}
+
+.more-projects {
+    color: chartreuse;
+}
+.about { 
+
+height:100%;
+background: rgba(0,0,0,0.5);
+padding: 20px;
+}
+
+.about p {
+  width: 100%;
+  padding: 0px 30px;
+
+
+}
+
+
+
+
+
+
+#myNavBar, .navbar { 
+
+width: 100%;
+}
+
+
+.navbar-default { 
+background-color:  #1D3775;
+
+}
+
+
+
+.footer, #myNavBar, .navbar  {
+background-color: #0F0872;
+
+}
+
+.portcon { 
+background: rgba(0, 0, 0, .5);
+
+}
+
+.portcon h3 { 
+padding-bottom: 20px;
+background: rgba(0,0,0,.6);
+padding-top:20px;
+}
+
+
+
+.port1, .port2, port1:hover, port2:hover { 
+width: 50%;
+cursor: pointer;
+}
+
+
+#formc { 
+width: 50%;
+margin: 0 auto;
+padding: 20px 0;
+}
+
+
+
+.texta { 
+width: 100%;
+color: black;
+}
+
+
+
+.contact { 
+background: rgba(0, 0, 0, .5);
+}
+
+.footer { 
+height: 100%;
+
+
+}
+
+.tcontent { 
+border: 2px solid black;
+width: 40%;
+margin: 0 auto;
+
+height: 100px;
+border-radius: 20px;
+
+
+}
+
+.mproj { 
+color: #10EF3D;
+}
+
+.fa-bars { 
+color:white;
+}
+
+@media (max-width: 480px) {
+	.about h2 { 
+		margin-top: 25%;
+	}
+}
+
+.success {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #468847;
+  background-color: #dff0d8;
+  border: 1px solid #d6e9c6;
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
+
+.error {
+  padding: 1em;
+  margin-bottom: 0.75rem;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #b94a48;
+  background-color: #f2dede;
+  border: 1px solid rgba(185, 74, 72, 0.3);
+  -webkit-border-radius: 4px;
+     -moz-border-radius: 4px;
+          border-radius: 4px;
+}
